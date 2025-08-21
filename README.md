@@ -6,11 +6,10 @@ This repository demonstrates various resampling techniques to address class imba
 
 ## 📊 Quick Takeaways (from the experiments in this notebook)
 
-| Model                | Best Performing Techniques*                         | Notes                                                                 |
-|-----------------------|-----------------------------------------------------|----------------------------------------------------------------------|
-| Logistic Regression   | **SMOTE, SMOTE+ENN**                                | Balanced performance with higher recall, reducing bias to majority.  |
-| Random Forest         | **SMOTE+Tomek, ENN**                                | Hybrid/cleaning methods improved generalization.                      |
-| XGBoost              | **ADASYN, SMOTE+Tomek**                             | Benefited most from oversampling + hybrid approaches.                 |
+<p align="center">
+  <img width="800" height="500" src="https://github.com/dileep-rawat/Handling-of-Imbalance-Dataset/blob/a615c41c38f8646ba9e4da6884a5ecaed5360966/experiments%20comparision.png">
+</p>
+
 
 \*Results may vary with dataset characteristics; these are indicative trends observed in this demo.  
 
